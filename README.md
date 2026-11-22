@@ -53,7 +53,7 @@ Finally, I used Hashcat to perform a dictionary attack using the rockyou.txt wor
 ```bash
 hashcat -m 22000 handshake.hc22000 /usr/share/wordlists/rockyou.txt
 ```
-**🛡️ Key Takeaways & Mitigation**
+## 🛡️ Key Takeaways & Mitigation
 **WPA2-PSK is vulnerable to offline attacks:** Once the handshake is captured, the attacker can guess passwords indefinitely without the router knowing.
 
 **Deauth attacks are highly effective:** Modern routers need Management Frame Protection (802.11w) enabled to stop attackers from kicking clients off.
